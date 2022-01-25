@@ -10,3 +10,8 @@ function concatenator() {
     document.getElementById("Paragraph").innerHTML = str1 ;
 }
 
+document.write(document.getElementById("Paragraph").innerHTML);
+
+function adder (x,y) {
+    return x + y;
+}
