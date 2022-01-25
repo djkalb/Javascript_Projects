@@ -1,3 +1,8 @@
+let x = 0
+function errorProne () {
+    let y = 0;
+    return x + z;
+}
 function greetMe () {
     if (new Date().getHours() < 11 ) {
         document.getElementById("greeting").innerHTML = "good morning"
