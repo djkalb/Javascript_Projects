@@ -10,5 +10,9 @@ function My_First_Function() {
     let str = "this is the button text";
     document.getElementById("Button_Text").innerHTML = str;
 }
-
+function concatenator() {
+    let str1 = My_First_Function();
+    let str2 = str1;
+    document.getElementById("Paragraph") = str2;
+}
 
