@@ -24,7 +24,7 @@ function preciser(n) {
 }
 
 
-document.write(stringer(numbers));
+document.write(stringer(numbers ));
 document.write(preciser(1672348));
 
 let text = "hello world"
